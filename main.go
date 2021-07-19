@@ -12,6 +12,7 @@ import (
 var db *pogreb.DB
 
 func main() {
+
 	var err error
 	db, err = pogreb.Open("pogreb.test", nil)
 	if err != nil {
